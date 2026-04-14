@@ -1,0 +1,18 @@
+POST http://localhost:3000/api/auth/signup
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "123456",
+  "skills": ["React", "Node.js"]
+}
+
+###user 2
+POST http://localhost:3000/api/auth/signup
+Content-Type: application/json
+
+{
+  "email": "ananya33@example.com",
+  "password": "12345678",
+  "skills": ["Python", "Data Science"]
+}
