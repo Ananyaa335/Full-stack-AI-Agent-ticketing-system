@@ -1,15 +1,41 @@
-# Node
+# ========================
+# Node.js
+# ========================
 node_modules/
-.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Python
-venv/
-__pycache__/
-*.pyc
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+.next/
+out/
 
 # Logs
 logs/
 *.log
 
+# ========================
+# Python
+# ========================
+venv/
+__pycache__/
+*.pyc
+
+# ========================
 # OS files
+# ========================
 .DS_Store
+Thumbs.db
+
+# ========================
+# IDE files
+# ========================
+.vscode/
+.idea/
