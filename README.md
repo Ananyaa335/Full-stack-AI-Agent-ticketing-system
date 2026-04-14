@@ -6,13 +6,14 @@ Full-stack-AI-Agent-ticketing-system
 An intelligent full-stack ticketing system that uses AI to classify, prioritize, and assign support tickets automatically.The system automatically analyzes incoming support tickets using an LLM and performs intelligent triaging. Instead of manual sorting, the AI agent can understand the issue, classify it, assign the appropriate moderator, and trigger email notifications.
 
 Features
-- AI-based ticket classification (Gemini LLM)
+- AI-powered ticket analysis using Google Gemini
+- Automatic ticket categorization and priority detection
 - Automated triaging
 - Moderator assignment
-- Email notifications
+- Email notifications for updates about ticket assignment
 - Real-time status tracking
 
- Tech Stack
+Tech Stack
 Frontend: React.js
 Backend: Node.js / Express  
 Database: MongoDB  
